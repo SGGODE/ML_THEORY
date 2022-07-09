@@ -36,3 +36,22 @@ maximize a reward (in the form of a number) on the way to reaching a specific go
 
 In unsupervised learning, there are no labels for the training data. A machine learning algorithm tries to learn 
 the underlying patterns or distributions that govern the data.
+
+
+After finishing this lesson, you will have been introduced to the key terms and the most common techniques used to solve problems in machine learning.
+
+A model is an extremely generic program, made specific by the data used to train it.
+Model training algorithms work through an interactive process where the current model iteration is analyzed 
+to determine what changes can be made to get closer to the goal. Those changes are made and the iteration continues until the model is evaluated to meet the goals.
+Model inference is when the trained model is used to generate predictions.
+
+
+you learned about labeled data versus unlabeled data, and how that plays a role in defining the machine learning task you are going to use. Furthermore, you started to explore which machine learning tasks are used to solve certain kinds of machine learning problems.
+Here’s a quick recap of the terms introduced in this lesson:
+
+Clustering is an unsupervised learning task that helps to determine if there are any naturally occurring groupings in the data.
+A categorical label has a discrete set of possible values, such as "is a cat" and "is not a cat."
+A continuous (regression) label does not have a discrete set of possible values, which means there are potentially an unlimited number of possibilities.
+Discrete is a term taken from statistics referring to an outcome that takes only a finite number of values (such as days of the week).
+A label refers to data that already contains the solution.
+Using unlabeled data means you don't need to provide the model with any kind of label or solution while the model is being trained.
