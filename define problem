@@ -1,0 +1,68 @@
+To get started, it is important to follow these two important steps
+https://youtu.be/DzhnpkXrRV4
+Step 1: Define a very specific task
+Think back to the snow cone sales example. Now imagine that you own a frozen treats store and you sell snow cones along with many other products. You wonder, "How do I increase sales?" It's a valid question, but it's the opposite of a very specific task. The following examples demonstrate how a machine learning practitioner might attempt to answer that question.
+
+Question: Does adding a $1.00 charge for sprinkles on a hot fudge sundae increase the sales of hot fudge sundaes?
+Question: Does adding a $0.50 charge for organic flavors in your snow cone increase the sales of snow cones?
+Step 2: Identify the machine learning task we might use to solve this problem
+
+This helps you better understand the data you need for a project.
+What exactly is a machine learning task?
+All model training algorithms, and the models themselves, take data as their input. Their outputs can be very different and are 
+classified into a few different groups, based on the task they are designed to solve.
+Often, we use the kind of data required to train a model as part of defining a machine learning task.
+In this lesson, we will focus on two common machine learning tasks:
+
+Supervised learning
+Unsupervised learning
+
+Supervised tasks
+A task is supervised if you are using labeled data. We use the term labeled to refer to data that already contains the solutions, called labels.
+For example, predicting the number of snow cones sold based on the average temperature outside is an example of supervised learning.
+
+Snow Cone
+In the preceding graph, the data contains both a temperature and the number of snow cones sold. Both components are used to generate the linear regression shown on 
+the graph. Our goal was to predict the number of snow cones sold, and we feed that value into the model. We are providing the model with labeled data and therefore, 
+we are performing a supervised machine learning task.
+
+Unsupervised tasks
+A task is considered to be unsupervised if you are using unlabeled data. This means you don't need to provide the model with any kind of label or 
+solution while the model is being trained.
+Let's take a look at unlabeled data.
+
+Tree
+Take a look at the preceding picture. Did you notice the tree in the picture? What you just did, when you noticed the object in the 
+picture and identified it as a tree, is called labeling the picture. Unlike you, a computer just sees that image as a matrix of pixels of varying intensity.
+Since this image does not have the labeling in its original data, it is considered unlabeled.
+How do we further classify tasks when we don’t have a label?
+Unsupervised learning involves using data that doesn't have a label. One common task is called clustering. Clustering helps to determine if there 
+are any naturally occurring groupings in the data.
+
+Let's look at an example of how clustering works in unlabeled data.
+
+Example: Identifying book micro-genres with unsupervised learning
+
+Imagine that you work for a company that recommends books to readers.
+
+The assumption is that you are fairly confident that micro-genres exist, and that there is one called Teen Vampire Romance. However, 
+you don’t know which micro-genres exist specifically, so you can't use supervised learning techniques.
+
+This is where the unsupervised learning clustering technique might be able to detect some groupings in the data. 
+The words and phrases used in a book's description might provide some guidance on its micro-genre.
+
+In supervised learning, there are two main identifiers that you will see in machine learning:
+
+A categorical label has a discrete set of possible values. In a machine learning problem in which you want to identify the type of flower based on a picture, 
+you would train your model using images that have been labeled with the categories of the flower that you want to identify. Furthermore, when you work with 
+categorical labels, you often carry out classification tasks, which are part of the supervised learning family.
+A continuous (regression) label does not have a discrete set of possible values, which often means you are working with numerical data. 
+In the snow cone sales example, we are trying to predict the number of snow cones sold. Here, our label is a number that could, in theory, be any value.
+In unsupervised learning, clustering is just one example. There are many other options, such as deep learning.
+
+Clustering, an unsupervised learning task that helps to determine if there are any naturally occurring groupings in the data.
+A categorical label has a discrete set of possible values, such as "is a cat" and "is not a cat".
+A continuous (regression) label does not have a discrete set of possible values, which means there are potentially possibly an unlimited number of possibilities.
+Discrete: A term taken from statistics referring to an outcome taking on only a finite number of values (such as days of the week).
+A label refers to data that already contains the solution.
+Using unlabeled data means you don't need to provide the model with any kind of label or solution while the model is being trained.
